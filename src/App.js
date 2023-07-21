@@ -25,8 +25,8 @@ let App = () => {
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path="shop/*" element={<Shop />} />
-        <Route path="singIn" element={<SignUpForm />} />
-        <Route path="singUp" element={<SignInForm />} />
+        <Route path="singIn" element={<SignInForm />} />
+        <Route path="singUp" element={<SignUpForm />} />
         <Route path="checkout" element={<Checkout />} />
       </Route>
     </Routes>

@@ -1,6 +1,6 @@
 import { SpinnerContainer, SpinnerOverlay } from './spinner.styles';
 
-const Spinner = () => (
+let Spinner = () => (
   <SpinnerOverlay>
     <SpinnerContainer />
   </SpinnerOverlay>

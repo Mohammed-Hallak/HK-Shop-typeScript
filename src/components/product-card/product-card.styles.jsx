@@ -1,12 +1,15 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const ProductCartContainer = styled.div`
+export let ProductCartContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
+  }
 
   img {
     width: 100%;
@@ -35,7 +38,7 @@ export const ProductCartContainer = styled.div`
   }
 `;
 
-export const Footer = styled.div`
+export let Footer = styled.div`
   width: 100%;
   height: 5%;
   display: flex;
@@ -43,11 +46,11 @@ export const Footer = styled.div`
   font-size: 18px;
 `;
 
-export const Name = styled.span`
+export let Name = styled.span`
   width: 90%;
   margin-bottom: 15px;
 `;
 
-export const Price = styled.span`
+export let Price = styled.span`
   width: 10%;
 `;

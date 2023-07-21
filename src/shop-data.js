@@ -1,4 +1,4 @@
-const SHOP_DATA = [
+let SHOP_DATA = [
   {
     title: 'Hats',
     items: [

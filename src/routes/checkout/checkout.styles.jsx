@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CheckoutContainer = styled.div`
+export let CheckoutContainer = styled.div`
   width: 55%;
   min-height: 90vh;
   display: flex;
@@ -9,7 +9,7 @@ export const CheckoutContainer = styled.div`
   margin: 50px auto 0;
 `;
 
-export const CheckoutHeader = styled.div`
+export let CheckoutHeader = styled.div`
   width: 100%;
   padding: 10px 0;
   display: flex;
@@ -17,7 +17,7 @@ export const CheckoutHeader = styled.div`
   border-bottom: 1px solid darkgrey;
 `;
 
-export const HeaderBlock = styled.div`
+export let HeaderBlock = styled.div`
   text-transform: capitalize;
   width: 23%;
 
@@ -26,7 +26,7 @@ export const HeaderBlock = styled.div`
   }
 `;
 
-export const Total = styled.span`
+export let Total = styled.span`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;

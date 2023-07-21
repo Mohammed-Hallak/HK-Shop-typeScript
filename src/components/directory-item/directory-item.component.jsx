@@ -6,11 +6,11 @@ import {
   DirectoryItemContainer,
 } from './directory-item.styles';
 
-const DirectoryItem = ({ category }) => {
-  const { imageUrl, title, route } = category;
-  const navigate = useNavigate();
+let DirectoryItem = ({ category }) => {
+  let { imageUrl, title, route } = category;
+  let navigate = useNavigate();
 
-  const onNavigateHandler = () => navigate(route);
+  let onNavigateHandler = () => navigate(route);
 
   return (
     <DirectoryItemContainer onClick={onNavigateHandler}>

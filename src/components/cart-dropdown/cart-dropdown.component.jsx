@@ -11,11 +11,11 @@ import {
   CartItems,
 } from './cart-dropdown.styles';
 
-const CartDropdown = () => {
-  const cartItems = useSelector(selectCartItems);
-  const navigate = useNavigate();
+let CartDropdown = () => {
+  let cartItems = useSelector(selectCartItems);
+  let navigate = useNavigate();
 
-  const goToCheckoutHandler = () => {
+  let goToCheckoutHandler = () => {
     navigate('/checkout');
   };
 

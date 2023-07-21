@@ -2,7 +2,7 @@ import DirectoryItem from '../directory-item/directory-item.component';
 
 import { DirectoryContainer } from './directory.styles';
 
-const categories = [
+let categories = [
   {
     id: 1,
     title: 'hats',
@@ -35,7 +35,7 @@ const categories = [
   },
 ];
 
-const Directory = () => {
+let Directory = () => {
   return (
     <DirectoryContainer>
       {categories.map((category) => (

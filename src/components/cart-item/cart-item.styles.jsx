@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CartItemContainer = styled.div`
+export let CartItemContainer = styled.div`
   width: 100%;
   display: flex;
   height: 80px;
@@ -11,7 +11,7 @@ export const CartItemContainer = styled.div`
   }
 `;
 
-export const ItemDetails = styled.div`
+export let ItemDetails = styled.div`
   width: 70%;
   display: flex;
   flex-direction: column;

@@ -12,12 +12,12 @@ import {
   Price,
 } from './product-card.styles';
 
-const ProductCard = ({ product }) => {
-  const { name, price, imageUrl } = product;
-  const dispatch = useDispatch();
-  const cartItems = useSelector(selectCartItems);
+let ProductCard = ({ product }) => {
+  let { name, price, imageUrl } = product;
+  let dispatch = useDispatch();
+  let cartItems = useSelector(selectCartItems);
 
-  const addProductToCart = () => dispatch(addItemToCart(cartItems, product));
+  let addProductToCart = () => dispatch(addItemToCart(cartItems, product));
 
   return (
     <ProductCartContainer>

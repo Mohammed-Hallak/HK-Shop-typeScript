@@ -12,6 +12,6 @@ export let DirectoryContainer = styled.div`
     gap: 20px;
   }
   @media (max-width: 767px) {
-    grid-template-columns: repeat(1, minmax(350px, 1fr));
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
   }
 `;
